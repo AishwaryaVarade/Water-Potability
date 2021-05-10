@@ -1,0 +1,65 @@
+{
+  "deployment": {
+    "id": "c483b747-c82e-411a-a2d8-303cd34c13ee"
+  },
+  "hardware_spec": {
+    "id": "a6c4923b-b8e4-444c-9f43-8a7ec3020110"
+  },
+  "platform_job": {
+    "job_id": "bf37dea4-3f1a-436b-af2e-b14585e1a19b",
+    "run_id": "8513b3d8-92a5-494d-9c8d-c308f62c428d"
+  },
+  "scoring": {
+    "environment_variables": {},
+    "input_data": [
+      {
+        "fields": [
+          "ph",
+          "Hardness",
+          "Solids",
+          "Chloramines",
+          "Sulfate",
+          "Conductivity",
+          "Organic_carbon",
+          "Trihalomethanes",
+          "Turbidity"
+        ],
+        "values": [
+          [
+            8.815,
+            208.33,
+            26780.7,
+            7.224,
+            329.11,
+            430.4,
+            7.15,
+            88.413,
+            2.875
+          ]
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "fields": [
+          "prediction",
+          "probability"
+        ],
+        "values": [
+          [
+            0,
+            [
+              0.7375262155214639,
+              0.26247378447853614
+            ]
+          ]
+        ]
+      }
+    ],
+    "status": {
+      "completed_at": "2021-05-07T09:14:50.102Z",
+      "running_at": "2021-05-07T09:14:44.796Z",
+      "state": "completed"
+    }
+  }
+}
